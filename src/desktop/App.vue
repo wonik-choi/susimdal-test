@@ -9,7 +9,8 @@ const setButtonNameDispatcher = container.resolve(SetButtonNameDispatcher);
 </script>
 
 <template>
-  <div class="flex justify-center items-center h-screen">
+  <div class="flex items-center justify-center h-screen">
+    <h2>Desktop</h2>
     <Button :value="setButtonNameDispatcher.dispatch('Desktop')" />
   </div>
 </template>
